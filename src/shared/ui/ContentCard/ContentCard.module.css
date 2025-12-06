@@ -1,0 +1,25 @@
+.card {
+  aspect-ratio: 1 / 1.5;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  user-select: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.card:hover {
+  border: 2px solid white;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+}

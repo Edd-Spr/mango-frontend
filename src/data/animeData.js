@@ -1,0 +1,80 @@
+export const animes = [
+  {
+    id: 1,
+    title: "Jujutsu Kaisen",
+    image: "https://cdn.myanimelist.net/images/anime/1171/109222.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/1171/109222l.jpg",
+  },
+  {
+    id: 2,
+    title: "Attack on Titan",
+    image: "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/10/47347l.jpg",
+  },
+  {
+    id: 3,
+    title: "Demon Slayer",
+    image: "https://cdn.myanimelist.net/images/anime/1286/99889.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/1286/99889l.jpg",
+  },
+  {
+    id: 4,
+    title: "My Hero Academia",
+    image: "https://cdn.myanimelist.net/images/anime/10/78745.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/10/78745l.jpg",
+  },
+  {
+    id: 5,
+    title: "One Piece",
+    image: "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/6/73245l.jpg",
+  },
+  {
+    id: 6,
+    title: "Naruto",
+    image: "https://cdn.myanimelist.net/images/anime/13/17405.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/13/17405l.jpg",
+  },
+  {
+    id: 7,
+    title: "Fullmetal Alchemist: Brotherhood",
+    image: "https://cdn.myanimelist.net/images/anime/1223/96541.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/1223/96541l.jpg",
+  },
+  {
+    id: 8,
+    title: "Death Note",
+    image: "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/9/9453l.jpg",
+  },
+  {
+    id: 9,
+    title: "Sword Art Online",
+    image: "https://cdn.myanimelist.net/images/anime/11/39717.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/11/39717l.jpg",
+  },
+  {
+    id: 10,
+    title: "Bleach",
+    image: "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/3/40451l.jpg",
+  },
+  {
+    id: 11,
+    title: "Tokyo Ghoul",
+    image: "https://cdn.myanimelist.net/images/anime/5/64449.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/5/64449l.jpg",
+  },
+  {
+    id: 12,
+    title: "Hunter x Hunter",
+    image: "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+  },
+  {
+    id: 13,
+    title: "Fairy Tail",
+    image: "https://cdn.myanimelist.net/images/anime/10/73274.jpg",
+    banner: "https://cdn.myanimelist.net/images/anime/10/73274l.jpg",
+  },
+];
