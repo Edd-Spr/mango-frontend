@@ -3,4 +3,14 @@
   flex-direction: column;
   width: 100vw;
   min-height: 100vh;
+  transition: transform 2s ease, filter 2s ease;
+  transform-origin: center center;
+  position: relative;
+}
+
+.layout--blurred {
+  transform: scale(1.05);
+  filter: brightness(0.5) blur(3px);
+  pointer-events: none;
+  user-select: none;
 }

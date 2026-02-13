@@ -1,0 +1,87 @@
+/* ============================================== */
+/*     OVERRIDE REAL PARA SWIPER 11  */
+/* ============================================== */
+.container :global(.swiper) {
+  --swiper-navigation-color: white !important;
+  --swiper-navigation-size: 28px !important;
+}
+
+/* ============================================== */
+/*     TU ESTILADO ORIGINAL + AJUSTES            */
+/* ============================================== */
+
+.container {
+  padding: 0 20px;
+  position: relative;
+  margin-top: -3rem;
+  padding: 0rem 3rem 4rem 4rem;
+}
+
+.swiper {
+  height: 100%;
+}
+
+.slide {
+  height: 100%;
+}
+
+.swiper-slide-active .card {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255, 183, 3, 0.7);
+}
+
+/* ============================================== */
+/*           FLECHAS AJUSTADAS                    */
+/* ============================================== */
+
+.container :global(.swiper-button-prev),
+.container :global(.swiper-button-next) {
+  width: 30px;
+  height: 100%;
+  top: 0;
+  margin: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, background 0.3s ease;
+}
+
+.container :global(.swiper-button-prev::after),
+.container :global(.swiper-button-next::after) {
+  font-size: 28px;
+  color: white !important;
+  opacity: 0.8;
+  transition: opacity 0.25s ease;
+}
+
+.container:hover :global(.swiper-button-prev),
+.container:hover :global(.swiper-button-next) {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.container :global(.swiper-button-prev:hover) {
+  background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.container :global(.swiper-button-next:hover) {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
+}
+
+/* Flecha más fuerte al hover */
+.container :global(.swiper-button-prev:hover::after),
+.container :global(.swiper-button-next:hover::after) {
+  opacity: 1;
+}
+
+/* Posiciones */
+.container :global(.swiper-button-prev) {
+  left: 0;
+}
+
+.container :global(.swiper-button-next) {
+  right: 0;
+}

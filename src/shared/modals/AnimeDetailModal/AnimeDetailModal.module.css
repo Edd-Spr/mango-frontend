@@ -14,13 +14,12 @@
 .modalContainer {
   height: 90vh;
   width: clamp(300px, 70vw, 70vw);
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(25, 25, 25);
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: relative;
   animation: slideIn 0.3s ease-out;
   overflow-y: auto;
-  border: 1px solid #444;
 }
 
 .closeButton {
@@ -91,7 +90,7 @@
   width: 100%;
   height: 15vh;
   pointer-events: none;
-  background: linear-gradient(to top, black 0%, transparent 100%);
+  background: linear-gradient(to top, rgb(25, 25, 25) 0%, transparent 100%);
   z-index: 3;
 }
 
@@ -119,27 +118,35 @@
 .navButtonsContainer {
   width: 100%;
   height: 2rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.26);
+  margin-bottom: 1rem;
 }
-
-.chapterItem {
-  width: 100%;
-  height: 9rem;
+.navButton {
+  position: relative;
+  height: 100%;
+  padding: 0 16px;
   background: none;
   border: none;
-  display: flex;
-  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
 }
-.chapterItem:hover {
-  background-color: #333;
-}
-.chapterPreview {
-  height: 90%;
-  aspect-ratio: 4 / 2;
-  background-color: #222;
-}
-.chapterPreviewImage {
+
+/* Línea animada */
+.navButton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  background-color: #ffb703;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease-out;
+}
+
+.navButton.activeNav::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }

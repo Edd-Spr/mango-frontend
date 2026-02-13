@@ -1,0 +1,21 @@
+.chapterItem {
+  width: 100%;
+  height: 9rem;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.chapterItem:hover {
+  background-color: #333;
+}
+.chapterPreview {
+  height: 90%;
+  aspect-ratio: 4 / 2;
+  background-color: #222;
+}
+.chapterPreviewImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

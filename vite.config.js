@@ -9,6 +9,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
       "@app": path.resolve(__dirname, "./src/app"),
       "@modules": path.resolve(__dirname, "./src/modules"),
+      "@contexts": path.resolve(__dirname, "./src/contexts"),
       "@shared": path.resolve(__dirname, "./src/shared"),
       "@hooks": path.resolve(__dirname, "./src/shared/hooks"),
       "@ui": path.resolve(__dirname, "./src/shared/ui"),

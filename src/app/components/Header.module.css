@@ -17,6 +17,10 @@
   user-select: none;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+}
 nav a {
   text-decoration: none;
   transition: color 0.3s ease;

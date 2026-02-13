@@ -1,0 +1,12 @@
+.chaptersList {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  overflow-y: auto;
+  padding: 1rem;
+  z-index: 100000;
+}

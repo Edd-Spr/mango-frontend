@@ -5,8 +5,22 @@ export const chapters = [
     description: "A mysterious event sets everything in motion.",
     imagePreview: "https://cdn.myanimelist.net/images/anime/1171/109222.jpg",
     servers: [
-      { server: "mega", url: "https://testserver.com/ep1-mega" },
-      { server: "streamsb", url: "https://testserver.com/ep1-sb" },
+      {
+        server: "Mega",
+        url: "https://filesamples.com/samples/video/mp4/sample_640x360.mp4",
+      },
+      {
+        server: "StreamSB",
+        url: "https://filesamples.com/samples/video/mp4/sample_960x540.mp4",
+      },
+      {
+        server: "YourUpload",
+        url: "https://filesamples.com/samples/video/mp4/sample_1280x720.mp4",
+      },
+      {
+        server: "Netu",
+        url: "https://filesamples.com/samples/video/mp4/sample_1920x1080.mp4",
+      },
     ],
   },
   {
@@ -15,8 +29,22 @@ export const chapters = [
     description: "New conflicts arise as the journey continues.",
     imagePreview: "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
     servers: [
-      { server: "mega", url: "https://testserver.com/ep2-mega" },
-      { server: "streamsb", url: "https://testserver.com/ep2-sb" },
+      {
+        server: "Mega",
+        url: "https://filesamples.com/samples/video/mp4/sample_640x360.mp4",
+      },
+      {
+        server: "StreamSB",
+        url: "https://filesamples.com/samples/video/mp4/sample_960x540.mp4",
+      },
+      {
+        server: "YourUpload",
+        url: "https://filesamples.com/samples/video/mp4/sample_1280x720.mp4",
+      },
+      {
+        server: "Netu",
+        url: "https://filesamples.com/samples/video/mp4/sample_1920x1080.mp4",
+      },
     ],
   },
   {
@@ -25,8 +53,22 @@ export const chapters = [
     description: "Allies gather and unexpected truths are revealed.",
     imagePreview: "https://cdn.myanimelist.net/images/anime/1286/99889.jpg",
     servers: [
-      { server: "mega", url: "https://testserver.com/ep3-mega" },
-      { server: "streamsb", url: "https://testserver.com/ep3-sb" },
+      {
+        server: "Mega",
+        url: "https://filesamples.com/samples/video/mp4/sample_640x360.mp4",
+      },
+      {
+        server: "StreamSB",
+        url: "https://filesamples.com/samples/video/mp4/sample_960x540.mp4",
+      },
+      {
+        server: "YourUpload",
+        url: "https://filesamples.com/samples/video/mp4/sample_1280x720.mp4",
+      },
+      {
+        server: "Netu",
+        url: "https://filesamples.com/samples/video/mp4/sample_1920x1080.mp4",
+      },
     ],
   },
   {
@@ -35,8 +77,22 @@ export const chapters = [
     description: "A dangerous mission takes shape.",
     imagePreview: "https://cdn.myanimelist.net/images/anime/13/17405.jpg",
     servers: [
-      { server: "mega", url: "https://testserver.com/ep4-mega" },
-      { server: "streamsb", url: "https://testserver.com/ep4-sb" },
+      {
+        server: "Mega",
+        url: "https://filesamples.com/samples/video/mp4/sample_640x360.mp4",
+      },
+      {
+        server: "StreamSB",
+        url: "https://filesamples.com/samples/video/mp4/sample_960x540.mp4",
+      },
+      {
+        server: "YourUpload",
+        url: "https://filesamples.com/samples/video/mp4/sample_1280x720.mp4",
+      },
+      {
+        server: "Netu",
+        url: "https://filesamples.com/samples/video/mp4/sample_1920x1080.mp4",
+      },
     ],
   },
   {
@@ -45,8 +101,22 @@ export const chapters = [
     description: "The group faces a powerful new enemy.",
     imagePreview: "https://cdn.myanimelist.net/images/anime/1223/96541.jpg",
     servers: [
-      { server: "mega", url: "https://testserver.com/ep5-mega" },
-      { server: "streamsb", url: "https://testserver.com/ep5-sb" },
+      {
+        server: "Mega",
+        url: "https://filesamples.com/samples/video/mp4/sample_640x360.mp4",
+      },
+      {
+        server: "StreamSB",
+        url: "https://filesamples.com/samples/video/mp4/sample_960x540.mp4",
+      },
+      {
+        server: "YourUpload",
+        url: "https://filesamples.com/samples/video/mp4/sample_1280x720.mp4",
+      },
+      {
+        server: "Netu",
+        url: "https://filesamples.com/samples/video/mp4/sample_1920x1080.mp4",
+      },
     ],
   },
   {
@@ -55,8 +125,22 @@ export const chapters = [
     description: "A tragic memory resurfaces, changing everything.",
     imagePreview: "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
     servers: [
-      { server: "mega", url: "https://testserver.com/ep6-mega" },
-      { server: "streamsb", url: "https://testserver.com/ep6-sb" },
+      {
+        server: "Mega",
+        url: "https://filesamples.com/samples/video/mp4/sample_640x360.mp4",
+      },
+      {
+        server: "StreamSB",
+        url: "https://filesamples.com/samples/video/mp4/sample_960x540.mp4",
+      },
+      {
+        server: "YourUpload",
+        url: "https://filesamples.com/samples/video/mp4/sample_1280x720.mp4",
+      },
+      {
+        server: "Netu",
+        url: "https://filesamples.com/samples/video/mp4/sample_1920x1080.mp4",
+      },
     ],
   },
   {
@@ -65,8 +149,22 @@ export const chapters = [
     description: "The battle intensifies as secrets unravel.",
     imagePreview: "https://cdn.myanimelist.net/images/anime/11/39717.jpg",
     servers: [
-      { server: "mega", url: "https://testserver.com/ep7-mega" },
-      { server: "streamsb", url: "https://testserver.com/ep7-sb" },
+      {
+        server: "Mega",
+        url: "https://filesamples.com/samples/video/mp4/sample_640x360.mp4",
+      },
+      {
+        server: "StreamSB",
+        url: "https://filesamples.com/samples/video/mp4/sample_960x540.mp4",
+      },
+      {
+        server: "YourUpload",
+        url: "https://filesamples.com/samples/video/mp4/sample_1280x720.mp4",
+      },
+      {
+        server: "Netu",
+        url: "https://filesamples.com/samples/video/mp4/sample_1920x1080.mp4",
+      },
     ],
   },
   {
@@ -75,8 +173,22 @@ export const chapters = [
     description: "Unexpected alliances form to face the crisis.",
     imagePreview: "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
     servers: [
-      { server: "mega", url: "https://testserver.com/ep8-mega" },
-      { server: "streamsb", url: "https://testserver.com/ep8-sb" },
+      {
+        server: "Mega",
+        url: "https://filesamples.com/samples/video/mp4/sample_640x360.mp4",
+      },
+      {
+        server: "StreamSB",
+        url: "https://filesamples.com/samples/video/mp4/sample_960x540.mp4",
+      },
+      {
+        server: "YourUpload",
+        url: "https://filesamples.com/samples/video/mp4/sample_1280x720.mp4",
+      },
+      {
+        server: "Netu",
+        url: "https://filesamples.com/samples/video/mp4/sample_1920x1080.mp4",
+      },
     ],
   },
   {
@@ -85,8 +197,22 @@ export const chapters = [
     description: "A turning point that shapes the final battle.",
     imagePreview: "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
     servers: [
-      { server: "mega", url: "https://testserver.com/ep9-mega" },
-      { server: "streamsb", url: "https://testserver.com/ep9-sb" },
+      {
+        server: "Mega",
+        url: "https://filesamples.com/samples/video/mp4/sample_640x360.mp4",
+      },
+      {
+        server: "StreamSB",
+        url: "https://filesamples.com/samples/video/mp4/sample_960x540.mp4",
+      },
+      {
+        server: "YourUpload",
+        url: "https://filesamples.com/samples/video/mp4/sample_1280x720.mp4",
+      },
+      {
+        server: "Netu",
+        url: "https://filesamples.com/samples/video/mp4/sample_1920x1080.mp4",
+      },
     ],
   },
   {
@@ -95,8 +221,22 @@ export const chapters = [
     description: "The climax: a confrontation that changes everything.",
     imagePreview: "https://cdn.myanimelist.net/images/anime/1171/109222.jpg",
     servers: [
-      { server: "mega", url: "https://testserver.com/ep10-mega" },
-      { server: "streamsb", url: "https://testserver.com/ep10-sb" },
+      {
+        server: "Mega",
+        url: "https://filesamples.com/samples/video/mp4/sample_640x360.mp4",
+      },
+      {
+        server: "StreamSB",
+        url: "https://filesamples.com/samples/video/mp4/sample_960x540.mp4",
+      },
+      {
+        server: "YourUpload",
+        url: "https://filesamples.com/samples/video/mp4/sample_1280x720.mp4",
+      },
+      {
+        server: "Netu",
+        url: "https://filesamples.com/samples/video/mp4/sample_1920x1080.mp4",
+      },
     ],
   },
 ];

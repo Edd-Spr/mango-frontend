@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+import { useUI } from "@contexts/UIContext";
 
 import Card from "@ui/ContentCard";
 
@@ -11,6 +12,7 @@ import styles from "./ContentRow.module.css";
 import { animes } from "@/data/animeData";
 
 export default function ContentRow({ onCardClick }) {
+  const { openModal } = useUI();
   return (
     <div className={styles.container}>
       <Swiper
@@ -32,7 +34,7 @@ export default function ContentRow({ onCardClick }) {
             <Card
               image={anime.image}
               title={anime.title}
-              onCardClick={() => onCardClick(anime)}
+              onCardClick={() => openModal("animeDetail", anime)}
             />
           </SwiperSlide>
         ))}

@@ -1,0 +1,30 @@
+.chapterItem {
+  width: 100%;
+  height: 9rem;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.chapterItem:hover {
+  background-color: #333;
+}
+.chapterPreview {
+  height: 90%;
+  aspect-ratio: 4 / 2;
+  background-color: #222;
+  border-radius: 5px;
+  border: 1px solid #444;
+  overflow: hidden;
+}
+.chapterPreviewImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chapterText {
+  text-align: left;
+  padding: 1rem;
+}
